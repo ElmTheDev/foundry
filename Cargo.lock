@@ -965,7 +965,6 @@ dependencies = [
  "ethers-providers",
  "evm-disassembler",
  "eyre",
- "foundry-block-explorers",
  "foundry-cli",
  "foundry-common",
  "foundry-compilers",
@@ -2467,7 +2466,6 @@ dependencies = [
  "eyre",
  "forge-doc",
  "forge-fmt",
- "foundry-block-explorers",
  "foundry-cli",
  "foundry-common",
  "foundry-compilers",
@@ -2584,23 +2582,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "foundry-block-explorers"
-version = "0.1.0"
-source = "git+https://github.com/foundry-rs/block-explorers#5cbf6d32fa1ba39bc06a0d2b6202a021b3b8f0ff"
-dependencies = [
- "alloy-json-abi",
- "alloy-primitives",
- "ethers-core",
- "foundry-compilers",
- "reqwest",
- "semver 1.0.20",
- "serde",
- "serde_json",
- "thiserror",
- "tracing",
-]
-
-[[package]]
 name = "foundry-cheatcodes"
 version = "0.2.0"
 dependencies = [
@@ -2684,7 +2665,6 @@ dependencies = [
  "ethers-middleware",
  "ethers-providers",
  "eyre",
- "foundry-block-explorers",
  "foundry-compilers",
  "foundry-config",
  "foundry-macros",
@@ -2753,7 +2733,6 @@ dependencies = [
  "ethers-core",
  "eyre",
  "figment",
- "foundry-block-explorers",
  "foundry-compilers",
  "globset",
  "number_prefix",
@@ -2905,7 +2884,6 @@ dependencies = [
  "const-hex",
  "ethers",
  "eyre",
- "foundry-block-explorers",
  "foundry-common",
  "foundry-compilers",
  "foundry-config",

@@ -17,7 +17,6 @@ alloy-primitives = { workspace = true, features = ["std", "serde"] }
 revm-primitives = { workspace = true, default-features = false, features = ["std"] }
 
 foundry-compilers = { workspace = true, features = ["async", "svm-solc"] }
-foundry-block-explorers = { workspace = true, features = ["foundry-compilers"]}
 
 # formats
 Inflector = "0.11"

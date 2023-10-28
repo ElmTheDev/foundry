@@ -18,7 +18,6 @@ foundry-macros.workspace = true
 ethers-core.workspace = true
 ethers-providers = { workspace = true, features = ["ws", "ipc"] }
 ethers-middleware.workspace = true
-foundry-block-explorers = { workspace = true, features = ["foundry-compilers"] }
 
 # alloy
 alloy-primitives = { workspace = true, features = ["serde", "getrandom", "arbitrary", "rlp"] }
