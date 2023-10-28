@@ -165,7 +165,6 @@ foundry-macros = { path = "crates/macros" }
 foundry-test-utils = { path = "crates/test-utils" }
 foundry-utils = { path = "crates/utils" }
 
-foundry-compilers = { version = "0.1", default-features = false }
 
 ## revm
 # no default features to avoid c-kzg
@@ -229,8 +228,6 @@ ethers-signers = { git = "https://github.com/gakonst/ethers-rs", rev = "9754f22d
 ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", rev = "9754f22d06a2defe5608c4c9b809cc361443a3dc" }
 ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", rev = "9754f22d06a2defe5608c4c9b809cc361443a3dc" }
 ethers-solc = { git = "https://github.com/gakonst/ethers-rs", rev = "9754f22d06a2defe5608c4c9b809cc361443a3dc" }
-
-foundry-compilers = { git = "https://github.com/foundry-rs/compilers" }
 
 alloy-dyn-abi = { git = "https://github.com/alloy-rs/core/" }
 alloy-primitives = { git = "https://github.com/alloy-rs/core/" }

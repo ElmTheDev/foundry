@@ -12,7 +12,6 @@ repository.workspace = true
 
 [dependencies]
 foundry-common.workspace = true
-foundry-compilers.workspace = true
 foundry-config.workspace = true
 foundry-evm-core.workspace = true
 foundry-utils.workspace = true
